@@ -51,8 +51,8 @@ Fitur ini mengatasi kesulitan utama dalam mempelajari aksara non-latin (seperti 
 
 ### 2. Contextual 3D Visualizer
 Meningkatkan pemahaman semantik dengan menghubungkan simbol abstrak dengan objek nyata.
-* **Dynamic Spawning:** Saat kartu "Māo" (Kucing) terdeteksi, model 3D kucing akan muncul dengan animasi *idle* (seperti bernapas atau mengeong).
-* **Pinyin & Tone Support:** Teks melayang (Floating UI) yang menampilkan cara baca beserta tanda nadanya.
+* **Dynamic Spawning:** Saat kartu 山 terdeteksi, model 3D karakter 山 akan muncul dengan animasi *stroke* 
+* **Pinyin & Tone Support:** Menampilkan cara baca beserta tanda nadanya (Shān)
 
 ### 3. Native Audio Phonics
 Melatih pelafalan yang akurat melalui *Audio Feedback*.
@@ -61,13 +61,12 @@ Melatih pelafalan yang akurat melalui *Audio Feedback*.
 
 ### 4. Card Synthesis (Combinational Logic)
 Fitur tercanggih yang mendeteksi hubungan antar-kartu (Multi-Marker Tracking).
-* **Word Building:** Jika kartu **"Huǒ" (Api)** didekatkan dengan kartu **"Shān" (Gunung)**, AR akan mendeteksi kombinasi tersebut dan memunculkan objek **Gunung Berapi (Huǒshān)**.
-* **Proximity Sensing:** Objek hanya akan berubah jika jarak antar kartu fisik berada dalam radius tertentu (< 5cm).
+* **Word Building:** Jika kartu **火 "Huǒ" (Api)** didekatkan dengan kartu **车 "Chē" (Mobil)**, AR akan mendeteksi kombinasi tersebut dan memunculkan objek **火车 "Huǒchē"**.
 
 ### 5. Gamified Interactive Quiz
 Mode evaluasi untuk mengukur progres belajar.
-* **"Find the Card" Challenge:** Aplikasi memberikan instruksi suara (misal: "Di mana kartu Air?"), dan pengguna harus mengarahkan kamera ke kartu yang benar untuk mendapatkan poin.
-* **Visual Validation:** Efek partikel hijau (centang) jika benar, dan merah (silang) jika salah, memberikan umpan balik instan kepada pengguna.
+* **"Find the Card" Challenge:** Aplikasi memberikan storytelling yang diakhiri dengan pertanyaan seperti "Manakah karakter hanzi untuk mobil?", dan pengguna harus mengarahkan kamera ke kartu yang benar untuk mendapatkan poin.
+* **Visual Validation:** Memberikan umpan balik instan kepada pengguna.
 ---
 
 ## 🛠️ Management & Workflow
