@@ -38,6 +38,36 @@ Menanggapi masukan bahwa ide awal terlalu sederhana untuk proyek berdurasi 6 bul
 * **Card Combination System (Word Synthesis):** Fitur utama di mana aplikasi dapat mendeteksi dua atau lebih marker kartu sekaligus. 
     * *Contoh:* Jika kartu **"Ku"** dan kartu **"da"** diletakkan berdampingan, AR akan memunculkan objek visual **"Kuda"** beserta suara/pelafalannya.
 * **Multi-Language/Script Support:** Penjajakan ke karakter yang lebih kompleks (seperti Aksara atau Hanzi).
+
+---
+
+## 🚀 Key Features 
+Aplikasi ini mengintegrasikan lima fitur utama yang dirancang untuk memaksimalkan retensi memori pengguna melalui keterlibatan visual, auditori, dan kinestetik:
+
+### 1. Smart Stroke Visualization (AR Animation)
+Fitur ini mengatasi kesulitan utama dalam mempelajari aksara non-latin (seperti Hanzi).
+* **Step-by-Step Guide:** Animasi 3D yang menunjukkan urutan goresan yang benar secara perlahan di atas kartu fisik.
+* **Directional Arrows:** Indikator panah transparan yang menunjukkan arah tarikan garis (atas ke bawah, kiri ke kanan).
+
+### 2. Contextual 3D Visualizer
+Meningkatkan pemahaman semantik dengan menghubungkan simbol abstrak dengan objek nyata.
+* **Dynamic Spawning:** Saat kartu "Māo" (Kucing) terdeteksi, model 3D kucing akan muncul dengan animasi *idle* (seperti bernapas atau mengeong).
+* **Pinyin & Tone Support:** Teks melayang (Floating UI) yang menampilkan cara baca beserta tanda nadanya.
+
+### 3. Native Audio Phonics
+Melatih pelafalan yang akurat melalui *Audio Feedback*.
+* **Pronunciation Button:** Tombol virtual AR yang jika ditekan akan memutar suara penutur asli (*Native Speaker*).
+* **Repetition Mode:** Pengguna dapat mendengarkan berkali-kali untuk menyinkronkan antara visual karakter dan bunyinya.
+
+### 4. Card Synthesis (Combinational Logic)
+Fitur tercanggih yang mendeteksi hubungan antar-kartu (Multi-Marker Tracking).
+* **Word Building:** Jika kartu **"Huǒ" (Api)** didekatkan dengan kartu **"Shān" (Gunung)**, AR akan mendeteksi kombinasi tersebut dan memunculkan objek **Gunung Berapi (Huǒshān)**.
+* **Proximity Sensing:** Objek hanya akan berubah jika jarak antar kartu fisik berada dalam radius tertentu (< 5cm).
+
+### 5. Gamified Interactive Quiz
+Mode evaluasi untuk mengukur progres belajar.
+* **"Find the Card" Challenge:** Aplikasi memberikan instruksi suara (misal: "Di mana kartu Air?"), dan pengguna harus mengarahkan kamera ke kartu yang benar untuk mendapatkan poin.
+* **Visual Validation:** Efek partikel hijau (centang) jika benar, dan merah (silang) jika salah, memberikan umpan balik instan kepada pengguna.
 ---
 
 ## 🛠️ Management & Workflow
